@@ -1,10 +1,9 @@
-import React from "react";
 import Image from "../../Assets/thermometer.png";
 
 const SymptomTracker = () => {
   return (
     <div>
-      <img id="image" src={Image} />
+      <img class="image" src={Image} />
     </div>
   );
 };
