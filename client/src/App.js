@@ -1,5 +1,7 @@
 import "./css/App.css";
 import "./css/applet.css";
+import "./css/dashboard.css";
+
 import Dashboard from "./Components/Pages/dashboard";
 
 function App() {

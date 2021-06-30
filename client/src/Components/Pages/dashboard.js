@@ -11,13 +11,25 @@ const Dashboard = () => {
   return (
     <>
       <p>Dashboard</p>
-      <div className="monitor-box-grid-div">
-        <TestResults />
-        <Payment />
-        <Messages />
-        <Appointments />
-        <Prescriptions />
-        <SymptomTracker />
+      <div class="projects-container-div">
+        <div class="project-item-div">
+          <TestResults />
+        </div>
+        <div class="project-item-div">
+          <Payment />
+        </div>
+        <div class="project-item-div">
+          <Messages />
+        </div>
+        <div class="project-item-div">
+          <Appointments />
+        </div>
+        <div class="project-item-div">
+          <Prescriptions />
+        </div>
+        <div class="project-item-div">
+          <SymptomTracker />
+        </div>
       </div>
     </>
   );
