@@ -12,10 +12,10 @@ const Dashboard = () => {
     <>
       <p>Dashboard</p>
       <div class="projects-container-div">
+          <Appointments />
           <TestResults />
           <Payment />
           <Messages />
-          <Appointments />
           <Prescriptions />
           <SymptomTracker />
       </div>

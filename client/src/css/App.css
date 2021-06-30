@@ -1,3 +1,27 @@
 .App {
   text-align: center;
 }
+
+.disguised-a {
+  text-decoration: none;
+}
+
+.disguised-a:hover .monitor-box-div-card {
+  box-shadow: 20px 20px 20px rgba(var(--dark-dark-shadow)),
+  -20px -20px 20px rgba(var(--dark-light-shadow));
+
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+
+:root {
+  --background-light: 236, 240, 241;
+  --light-dark-shadow: 227, 227, 227;
+  --light-light-shadow: 255, 255, 255;
+
+  --background-dark: 27, 39, 46;
+  --dark-dark-shadow: 0, 0, 0, 0.25;
+  --dark-light-shadow: 38, 55, 64, 0.5;
+}
