@@ -2,7 +2,7 @@ import Image from "../../Assets/x-ray.png";
 
 const TestResults = () => {
   return (
-    <div>
+    <div class="applet">
       <img class="image" src={Image} />
     </div>
   );

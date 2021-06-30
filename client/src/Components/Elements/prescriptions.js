@@ -2,7 +2,7 @@ import Image from "../../Assets/pills.png";
 
 const Prescriptions = () => {
   return (
-    <div>
+    <div class="applet">
       <img class="image" src={Image} />
     </div>
   );

@@ -2,7 +2,7 @@ import Image from "../../Assets/thermometer.png";
 
 const SymptomTracker = () => {
   return (
-    <div>
+    <div class="applet">
       <img class="image" src={Image} />
     </div>
   );

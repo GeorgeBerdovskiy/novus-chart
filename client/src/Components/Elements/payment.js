@@ -2,7 +2,7 @@ import Image from "../../Assets/bill.png";
 
 const Payment = () => {
   return (
-    <div>
+    <div class="applet">
       <img class="image" src={Image} />
     </div>
   );
