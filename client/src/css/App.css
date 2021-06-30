@@ -2,18 +2,21 @@
   text-align: center;
 }
 
-.disguised-a {
+.clickable {
   text-decoration: none;
+  will-change: transform;
+  transition: transform 450ms;
 }
 
-.disguised-a:hover .monitor-box-div-card {
+.clickable-a:hover .monitor-box-div-card {
   box-shadow: 20px 20px 20px rgba(var(--dark-dark-shadow)),
   -20px -20px 20px rgba(var(--dark-light-shadow));
 
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -o-transition: all .25s ease;
-  transition: all .25s ease;
+  transition: transform 125ms;
+  transform: translateY(-10px);
 }
 
 :root {
