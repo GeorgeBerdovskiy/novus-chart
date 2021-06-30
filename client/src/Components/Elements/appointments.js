@@ -6,6 +6,9 @@ const Appointments = () => {
       <Link className="clickable" to="/appointments">
           <div class="applet">
               <img class="image" src={Image}  alt={"Appointment icon"}/>
+              <div className="overlay">
+                  <div className="overlayText">Appointments</div>
+              </div>
           </div>
       </Link>
   );

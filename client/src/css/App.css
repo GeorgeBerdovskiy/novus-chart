@@ -8,10 +8,20 @@
   transition: transform 450ms;
 }
 
-.clickable-a:hover .monitor-box-div-card {
-  box-shadow: 20px 20px 20px rgba(var(--dark-dark-shadow)),
-  -20px -20px 20px rgba(var(--dark-light-shadow));
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #2f99bb;
+}
 
+.clickable:hover {
   -webkit-transition: all .25s ease;
   -moz-transition: all .25s ease;
   -o-transition: all .25s ease;
@@ -19,12 +29,23 @@
   transform: translateY(-10px);
 }
 
-:root {
-  --background-light: 236, 240, 241;
-  --light-dark-shadow: 227, 227, 227;
-  --light-light-shadow: 255, 255, 255;
+.clickable:hover .overlay {
+  opacity: 1.0;
+  width: 300px;
+  height: 225px;
+  margin: 20px;
+  border-radius: 20px;
+}
 
-  --background-dark: 27, 39, 46;
-  --dark-dark-shadow: 0, 0, 0, 0.25;
-  --dark-light-shadow: 38, 55, 64, 0.5;
+.overlayText {
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
