@@ -1,10 +1,13 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
+const TestResult = require('test-result-model')
+
 const Patient = new Schema(
     {
-        first_name: { type: String, required: true },
-        last_name: { type: String, required: true },
+        status: { type: String, required: true },
+        title: { type: String, required: true },
+        description: { type: String, required: true },
     },
 )
 
