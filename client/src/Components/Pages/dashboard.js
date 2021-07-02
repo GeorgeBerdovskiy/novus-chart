@@ -15,6 +15,8 @@ const Dashboard = () => {
           <Appointments />
           <TestResults />
           <Payment />
+      </div>
+      <div class="projects-container-div">
           <Messages />
           <Prescriptions />
           <SymptomTracker />
