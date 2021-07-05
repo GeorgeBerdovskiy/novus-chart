@@ -10,26 +10,16 @@ import SymptomTracker from "../Elements/symptomTracker";
 const Dashboard = () => {
   return (
     <>
-      <p>Dashboard</p>
+      <h1>Dashboard</h1>
       <div class="projects-container-div">
-        <div class="project-item-div">
-          <TestResults />
-        </div>
-        <div class="project-item-div">
-          <Payment />
-        </div>
-        <div class="project-item-div">
-          <Messages />
-        </div>
-        <div class="project-item-div">
           <Appointments />
-        </div>
-        <div class="project-item-div">
+          <TestResults />
+          <Payment />
+      </div>
+      <div class="projects-container-div">
+          <Messages />
           <Prescriptions />
-        </div>
-        <div class="project-item-div">
           <SymptomTracker />
-        </div>
       </div>
     </>
   );
