@@ -10,7 +10,7 @@ import SymptomTracker from "../Elements/symptomTracker";
 const Dashboard = () => {
   return (
     <>
-      <p>Dashboard</p>
+      <h1>Dashboard</h1>
       <div class="projects-container-div">
           <Appointments />
           <TestResults />
